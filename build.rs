@@ -49,7 +49,7 @@ fn fetch() -> io::Result<()> {
 fn build() -> io::Result<()> {
 	let mut build = cc::Build::new();
 
-	build.file(source().join("libusb/hid.c"));
+	build.file(source().join("linux/hid.c"));
 	build.include(source().join("hidapi"));
 	build.static_flag(true);
 
