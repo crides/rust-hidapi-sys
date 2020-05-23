@@ -17,8 +17,8 @@ static = []
 build  = ["static"]
 
 [dependencies]
-libc = "0.2"
+libc = "0.2.70"
 
 [build-dependencies]
-cc         = "1.0"
-pkg-config = "0.3"
+cc         = "1.0.54"
+pkg-config = "0.3.17"
